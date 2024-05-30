@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    --color1:#0A2126;
+    --color2:#4c6e75;
+
+}
+
+#caja2{
+    width: 1000px;
+   margin: 0 auto;
+}
+
+#cuerpo{
+    width: 1000px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+   margin-top: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 40px;
+   margin-top: 50px;
+   font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+     margin-top: 20px;
+}
+
+#titulo{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#titulo1{
+    font-family: "Taviraj", serif;
+    font-size: 100px;
+    color: var(--color1);
+    text-align: center;
+}
+
+#menuprincipal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mp{margin: 5px 20px 30px 20px;}
+
+#mp a:hover{
+    color:var(--color2)
+}
+
+#mp a{
+    color: var(--color1);
+    text-decoration: none;
+}
+
+#video{
+    box-shadow: 7px 5px 10px 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pie{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ico{ margin: 20px 15px 20px 15px;}
+
+#ico a:hover{
+    color:var(--color2)
+}
+
+#ico a{
+    color: var(--color1);
+    text-decoration: none;
+}

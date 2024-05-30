@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    --color1:#0A2126;
+    --color2:#4c6e75;
+
+}
+
+#caja{
+    width: 700px;
+    border: 0px auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+body{
+    background-image: url(imagen/ft4.jpg) ;
+    background-size: 100% ;
+}
+
+#titulo1{
+    font-family: "Taviraj", serif;
+    font-size: 100px;
+    color: white;
+}
+
+#frase{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menuprincipal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mp{margin: 30px 20px 30px 20px;}
+
+#mp a:hover{
+    color:var(--color2)
+}
+
+#mp a{
+    color: white;
+    text-decoration: none;
+}
+
+#pie{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ico{ margin: 20px 15px 20px 15px;}
+
+#ico a:hover{
+    color:var(--color2)
+}
+
+#ico a{
+    color: white;
+    text-decoration: none;
+}

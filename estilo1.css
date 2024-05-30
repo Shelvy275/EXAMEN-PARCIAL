@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    --color1:#0A2126;
+    --color2:#4c6e75;
+
+}
+
+#caja1{
+    width: 1055px;
+   margin: 0 auto;
+}
+
+#titulo{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    
+}
+#titulo1{
+    font-family: "Taviraj", serif;
+    font-size: 100px;
+    color: var(--color1);
+    text-align: center;
+}
+
+#menuprincipal{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mp{margin: 5px 20px 30px 20px;}
+
+#mp a:hover{
+    color:var(--color2)
+}
+
+#mp a{
+    color: var(--color1);
+    text-decoration: none;
+}
+
+#cuerpo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#ogro1{
+    text-align: center;
+    font-size: 10px;
+    float: right;
+    transform: translateX(590px);
+    transform: translateY(-95px);
+    
+}
+
+#ogro1 {
+    align-items: center;
+    border-radius: 500px ;
+}
+
+
+
+#titu{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#cuerpoentero{
+    text-align: justify;
+    margin: 0px 10px 0px 10px;
+}
+
+#cuerpomedio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ft{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pie{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#ico{ margin: 20px 15px 20px 15px;}
+
+#ico a:hover{
+    color:var(--color2)
+}
+
+#ico a{
+    color: var(--color1);
+    text-decoration: none;
+}
